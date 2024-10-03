@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KiddoPlay - Sitio Oficial</title>
+    <link rel="stylesheet" href="MainStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="logo.png" alt="Kiddoplay Logo" class="logo">
+            <h1>Kiddoplay</h1>
+        </div>
+        <nav class="nav_principal">
+    <ul>
+        <li><a href="#inicio" class="btn-nav"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#juego" class="btn-nav"><i class="fas fa-gamepad"></i> Juego</a></li>
+        <li><a href="#canal" class="btn-nav"><i class="fab fa-youtube"></i> Canal de YouTube</a></li>
+        <li><a href="#noticias" class="btn-nav"><i class="fas fa-newspaper"></i> Noticias</a></li>
+        <li><a href="#contacto" class="btn-nav"><i class="fas fa-envelope"></i> Contacto</a></li>
+    </ul>
+</nav>
+    </header>
+    <main>
+        <section id="inicio">
+    <div class="carrusel">
+    <div class="carrusel-contenedor">
+        <img src="IMG1.png" alt="Imagen 1" class="carrusel-imagen">
+        <img src="IMG2.png" alt="Imagen 2" class="carrusel-imagen">
+        <img src="IMG3.png" alt="Imagen 3" class="carrusel-imagen">
+        <!-- Agrega más imágenes aquí -->
+    </div>
+    <div class="carrusel-controles">
+        <button class="carrusel-anterior">Anterior</button>
+        <button class="carrusel-siguiente">Siguiente</button>
+    </div>
+</div>
+</section>
+        <section id="juego">
+            <h2>Características del juego</h2>
+            <ul>
+                <li>Gráficos impresionantes</li>
+                <li>Jugabilidad adictiva</li>
+                <li>Niveles desafiantes</li>
+            </ul>
+        </section>
+        <section id="canal">
+    <h2>Últimos videos del canal</h2>
+    <div class="videos">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_1">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_1/mqdefault.jpg" alt="Título del video 1">
+            </a>
+        </div>
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID_2">
+                <img src="https://img.youtube.com/vi/VIDEO_ID_2/mqdefault.jpg" alt="Título del video 2">
+            </a>
+        </div>
+        <!-- Agrega más videos aquí -->
+    </div>
+</section>
+        <section id="noticias">
+            <h2>Noticias y actualizaciones</h2>
+            <ul>
+                <!-- Aquí van las noticias -->
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo electrónico">
+                <textarea placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tu Juego. Todos los derechos reservados.</p>
+    </footer>
+    <script src="MainScript.js"></script>
+</body>
+</html>
