@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f7f7; /* Fondo claro */
-    background: url('bannerYoutube.png') no-repeat center center fixed; /* Imagen de fondo fija */
+    /*background: url('bannerYoutube.png') no-repeat center center fixed; /* Imagen de fondo fija */
     background-size: cover;
     margin-top: 100px; /* Ajusta este valor según la altura de tu header */
 }
