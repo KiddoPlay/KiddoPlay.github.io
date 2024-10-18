@@ -69,7 +69,11 @@ p, a, li {
     font-size: 16px; /* Tamaño de fuente legible */
     color: #555; /* Color de texto secundario */
 }
-
+.textss{
+    font-size: 20px; /* Tamaño de fuente legible */
+   
+    color: #ffffff; /* Color de texto secundario */
+}
 /* Header Styles */
 header {
     background-color: #ff69b4; /* Fondo rosa vibrante */
