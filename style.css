@@ -69,10 +69,9 @@ p, a, li {
     font-size: 16px; /* Tamaño de fuente legible */
     color: #555; /* Color de texto secundario */
 }
-.textss{
-    font-size: 20px; /* Tamaño de fuente legible */
-   
-    color: #ffffff; /* Color de texto secundario */
+.textsss{
+    font-size: 20px; 
+    color: #ffffff; 
 }
 /* Header Styles */
 header {
